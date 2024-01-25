@@ -1,0 +1,1 @@
+write a python class that has a static method to change celsius to farenheit and vice versa.  and execute it with a main method with 3 examples of each conversion that print the 2 same temperatures:  32 degress F, and -40 degrees F, and 63 degrees F, 100 degress C, 37 Degrees C, 8 degrees C
