@@ -10,7 +10,7 @@ import (
 func checkCertificate(url string) {
 	// Disable certificate verification to get all the certificate details
 	tr := &http.Transport{
-		TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
+		TLSClientConfig: &tls.Config{InsecureSkipVerify: false},
 	}
 
 	client := &http.Client{Transport: tr, Timeout: 10 * time.Second}
