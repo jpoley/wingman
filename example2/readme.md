@@ -1,0 +1,1 @@
+I need to create a Python function that calculates the factorial of a number. Can you provide a code snippet that accomplishes this?"  please write an example calling and printing a result of 1 to 10 factorial
