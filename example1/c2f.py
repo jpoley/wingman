@@ -15,10 +15,8 @@ if __name__ == "__main__":
         celsius = TemperatureConverter.fahrenheit_to_celsius(fahrenheit)
         converted_fahrenheit = TemperatureConverter.celsius_to_fahrenheit(celsius)
         print(f"{fahrenheit} degrees F = {celsius} degrees C")
-        print(f"{celsius} degrees C = {converted_fahrenheit} degrees F")
     
     for celsius in examples_celsius:
         fahrenheit = TemperatureConverter.celsius_to_fahrenheit(celsius)
         converted_celsius = TemperatureConverter.fahrenheit_to_celsius(fahrenheit)
         print(f"{celsius} degrees C = {fahrenheit} degrees F")
-        print(f"{fahrenheit} degrees F = {converted_celsius} degrees C")
